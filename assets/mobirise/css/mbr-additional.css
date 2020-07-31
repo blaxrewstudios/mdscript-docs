@@ -1648,59 +1648,54 @@ a {
 }
 .cid-s6js68cPeW .mbr-section-subtitle {
   color: #bbbbbb;
-  text-align: left;
+  text-align: center;
 }
 .cid-s6js68cPeW .mbr-section-title {
   color: #ffffff;
   text-align: left;
 }
-.cid-s6jEOx12Kz {
-  padding-top: 60px;
-  padding-bottom: 0px;
+.cid-s6klCuV5pT {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
   background-color: #181818;
 }
-.cid-s6jEOx12Kz .nav-tabs {
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
+.cid-s6klCuV5pT .nav-tabs .nav-item.open .nav-link:focus,
+.cid-s6klCuV5pT .nav-tabs .nav-link.active:focus {
+  outline: none;
+}
+.cid-s6klCuV5pT .nav-tabs {
   flex-wrap: wrap;
-  border-bottom: none;
+  border-bottom: 1px solid #6592e6;
 }
-.cid-s6jEOx12Kz .nav-tabs .nav-link {
-  box-sizing: border-box;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 500;
-  border-radius: 3px;
-  border: 1px solid #ffffff;
-  padding: 1rem 3rem;
-  margin: 0.4rem .8rem !important;
+@media (max-width: 767px) {
+  .cid-s6klCuV5pT .nav-item {
+    width: 100%;
+    margin: 0;
+  }
+}
+.cid-s6klCuV5pT .nav-tabs .nav-link {
   transition: all .5s;
+  border: none;
+  border-bottom: 3px solid transparent;
 }
-.cid-s6jEOx12Kz .nav-tabs .nav-link:hover {
-  background-color: #8caff0;
+.cid-s6klCuV5pT .nav-tabs .nav-item {
+  margin-right: 1.5rem;
 }
-.cid-s6jEOx12Kz .nav-tabs .nav-link.active {
-  font-weight: 500;
+.cid-s6klCuV5pT .nav-link,
+.cid-s6klCuV5pT .nav-link.active {
+  padding: 1rem 0;
+  background-color: transparent;
+}
+.cid-s6klCuV5pT .nav-tabs .nav-link.active {
+  border-bottom: 3px solid #6592e6;
+}
+.cid-s6klCuV5pT P {
+  color: #bbbbbb;
+}
+.cid-s6klCuV5pT H3 {
   color: #ffffff;
-  font-style: normal;
-  border: none;
-  background: #8caff0;
 }
-.cid-s6jEOx12Kz .nav-tabs .nav-link.active:hover {
-  border: none;
-}
-.cid-s6jEOx12Kz p {
-  color: #232323;
-}
-.cid-s6jEOx12Kz .mbr-text {
-  text-align: center;
-}
-.cid-s6jEOx12Kz P {
-  color: #cccccc;
-  text-align: left;
-}
-.cid-s6jEOx12Kz H2 {
+.cid-s6klCuV5pT H4 {
   color: #ffffff;
 }
 .cid-s6jFaNooC9 {
